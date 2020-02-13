@@ -149,6 +149,11 @@ services:
       - MYSQL_BACKUP_PASS=${MYSQL_ROOT_PASSWORD}
       - MYSQL_BACKUP_HOST=mysql
 
+      ##
+      ## Composer
+      ##
+      - COMPOSER_MEMORY_LIMIT=-1
+
     dns:
       - 172.16.238.100
 
