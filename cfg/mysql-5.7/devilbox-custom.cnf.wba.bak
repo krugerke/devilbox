@@ -1,0 +1,10 @@
+[mysqld]
+;key_buffer_size=16M
+general-log
+;audit-log = ON
+event-scheduler = ON
+long_query_time = 10
+
+[mysqldump]
+;quick
+
