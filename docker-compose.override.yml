@@ -1,4 +1,4 @@
-version: '2.3'
+version: '3.3'
 services:
   # -----------------------------------------------------------------------------------------------
   # htdocs Symlink fix
@@ -60,7 +60,6 @@ services:
       - ELASTICSEARCH_URL=http://elastic:9200
     depends_on:
       - elastic
-
 volumes:
   devilbox-elastic:
   devilbox-logstash:
