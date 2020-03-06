@@ -1,0 +1,65 @@
+version: '2.3'
+
+services:
+  zookeeper:
+    image: 'bitnami/zookeeper:3'
+    ports:
+      - '2181:2181'
+    volumes:
+      - 'zookeeper:/bitnami'
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.243
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+  kafka:
+    image: 'bitnami/kafka:2'
+    ports:
+      - '9092:9092'
+    volumes:
+      - type: volume
+        source: kafka
+        target: /bitnami/kafka
+      - type: bind
+        source: ./cfg/kafka-latest/conf
+        target: /opt/bitnami/kafka/conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.244
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    depends_on:
+      - zookeeper
+
+#  rabbitmq:
+#    image: 'bitnami/rabbitmq:3.8'
+#    ports:
+#      - '4369:4369'
+#      - '5672:5672'
+#      - '25672:25672'
+#      - '15672:15672'
+#    networks:
+#      - elk
+#    volumes:
+#      - 'rabbitmq:/bitnami'
+#  redis:
+#    image: 'bitnami/redis:5.0'
+#    environment:
+#      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+#      - ALLOW_EMPTY_PASSWORD=yes
+#      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+#    ports:
+#      - '6379:6379'
+#    volumes:
+#      - 'redis:/bitnami/redis/data'
+
+volumes:
+  zookeeper:
+    driver: local
+  kafka:
+    driver: local
+#  rabbitmq:
+#    driver: local
+#  redis:
+#    driver: local

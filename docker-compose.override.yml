@@ -60,7 +60,43 @@ services:
       - ELASTICSEARCH_URL=http://elastic:9200
     depends_on:
       - elastic
+  zookeeper:
+    image: 'bitnami/zookeeper:3'
+    ports:
+      - '2181:2181'
+    volumes:
+      - 'zookeeper:/bitnami'
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.243
+
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+  kafka:
+    image: 'bitnami/kafka:2'
+    ports:
+      - '9092:9092'
+    volumes:
+      - type: volume
+        source: kafka
+        target: /bitnami/kafka
+      - type: bind
+        source: ./cfg/kafka-latest/conf
+        target: /opt/bitnami/kafka/conf
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.244
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    depends_on:
+      - zookeeper
 volumes:
   devilbox-elastic:
   devilbox-logstash:
+  zookeeper:
+    driver: local
+  kafka:
+    driver: local
+
 
