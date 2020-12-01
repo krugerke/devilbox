@@ -93,4 +93,4 @@ $RECYCLE.BIN/
 *.bbproject
 
 ###### GRADLE ######
-.gradle
+/.gradle
