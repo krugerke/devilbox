@@ -154,8 +154,8 @@ services:
       ##
       - COMPOSER_MEMORY_LIMIT=-1
 
-    dns:
-      - 172.16.238.100
+   # dns:
+   #   - 172.16.238.100
 
     # MacOS and Windows have this by default, this hack also allows it for Linux
     extra_hosts:

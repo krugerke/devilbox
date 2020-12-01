@@ -91,3 +91,6 @@ $RECYCLE.BIN/
 ###### BBEdit ######
 *.bbprojectd
 *.bbproject
+
+###### GRADLE ######
+*.gradle

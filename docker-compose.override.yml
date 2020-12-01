@@ -1,14 +1,31 @@
 version: '2.3'
 services:
+
   # -----------------------------------------------------------------------------------------------
-  # htdocs Symlink fix
+  # PHP Container Tweaks
   # -----------------------------------------------------------------------------------------------
   php:
+    privileged: true
     volumes:
-      - $HOME:$HOME
-  httpd:
+    - /var/run/docker.sock:/var/run/docker.sock
+
+  # -----------------------------------------------------------------------------------------------
+  # Portainer Container Mgr
+  # -----------------------------------------------------------------------------------------------
+  portainer:
+    image: portainer/portainer-ce
+    hostname:  portainer
+    restart: always
+    ports:
+    - "${LOCAL_LISTEN_ADDR}${HOST_PORT_PORTAINER:-9000}:9000"
+    - "${LOCAL_LISTEN_ADDR}${HOST_PORT_PORTAINER_AGENT:-8000}:8000"
+    networks:
+      app_net:
+        ipv4_address: 172.16.238.230
     volumes:
-      - $HOME:$HOME
+    - devilbox-portainer:/data
+    - /var/run/docker.sock:/var/run/docker.sock
+
   # -----------------------------------------------------------------------------------------------
   # ELK Stack
   # -----------------------------------------------------------------------------------------------
@@ -92,11 +109,11 @@ services:
     depends_on:
       - zookeeper
 volumes:
+  devilbox-php:
+  devilbox-portainer:
   devilbox-elastic:
   devilbox-logstash:
   zookeeper:
-    driver: local
   kafka:
-    driver: local
 
 
