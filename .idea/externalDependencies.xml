@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="BashSupport" />
+    <plugin id="Docker" />
+    <plugin id="Git4Idea" />
+    <plugin id="com.intellij" />
+    <plugin id="com.intellij.CloudConfig" />
+    <plugin id="com.intellij.apacheConfig" />
+    <plugin id="com.intellij.configurationScript" />
+    <plugin id="com.intellij.database" />
+    <plugin id="com.intellij.platform.images" />
+    <plugin id="com.jetbrains.php" />
+    <plugin id="com.jetbrains.php.framework" />
+    <plugin id="com.jetbrains.sh" />
+    <plugin id="com.vecheslav.darculaDarkerTheme" />
+    <plugin id="fr.adrienbrault.idea.symfony2plugin" />
+    <plugin id="org.editorconfig.editorconfigjetbrains" />
+    <plugin id="org.jetbrains.plugins.github" />
+    <plugin id="org.jetbrains.plugins.phpstorm-docker" />
+    <plugin id="org.jetbrains.plugins.phpstorm-remote-interpreter" />
+    <plugin id="org.jetbrains.plugins.remote-run" />
+    <plugin id="org.jetbrains.plugins.terminal" />
+    <plugin id="ru.adelf.idea.dotenv" />
+  </component>
+</project>

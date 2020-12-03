@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d78732dd-9ed5-49a6-adad-66455e697386" name="Default Changelist" comment=".idea files Initial commit.">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <interpreter name="devilbox/php-fpm:7.3-work-0.105" composer="/usr/local/bin/composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MessDetectorProjectConfiguration">
+    <option name="selectedConfigurationId" value="abe3c9b7-4584-42b9-a150-a3b2f9817330" />
+  </component>
+  <component name="PHPCSFixerProjectConfiguration">
+    <option name="selectedConfigurationId" value="abe3c9b7-4584-42b9-a150-a3b2f9817330" />
+  </component>
+  <component name="PHPCodeSnifferProjectConfiguration">
+    <option name="selectedConfigurationId" value="abe3c9b7-4584-42b9-a150-a3b2f9817330" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="devilbox/php-fpm:7.3-work-0.105 (project level)" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" />
+  <component name="ProjectId" id="1l5yhTaW6zhlt2Az3o7ghEpnNia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docker" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\krugerk\Development\projects\workspace\.idea" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="DEFAULT_SDK" />
+    <option name="myConnectionId" value="" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\krugerk\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d78732dd-9ed5-49a6-adad-66455e697386" name="Default Changelist" comment="" />
+      <created>1606901365310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606901365310</updated>
+      <workItem from="1606901366461" duration="800000" />
+      <workItem from="1606902966361" duration="2000" />
+      <workItem from="1606906702064" duration="86000" />
+      <workItem from="1606906797832" duration="5012000" />
+      <workItem from="1606912154575" duration="896000" />
+      <workItem from="1606913064304" duration="1467000" />
+      <workItem from="1606914546842" duration="221000" />
+      <workItem from="1606914815109" duration="41000" />
+      <workItem from="1606914864742" duration="158000" />
+      <workItem from="1606915477658" duration="15000" />
+      <workItem from="1606915501649" duration="99000" />
+      <workItem from="1606915645105" duration="129000" />
+      <workItem from="1606926529657" duration="201000" />
+      <workItem from="1606926746461" duration="41000" />
+      <workItem from="1606926800780" duration="257000" />
+      <workItem from="1606927070953" duration="2334000" />
+      <workItem from="1606931980803" duration="615000" />
+      <workItem from="1606934462729" duration="4346000" />
+      <workItem from="1606946140869" duration="13215000" />
+    </task>
+    <task id="LOCAL-00001" summary=".idea files Initial commit.">
+      <created>1606927313979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606927313979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value=".idea files Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea files Initial commit." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1606951811738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606951811738" />
+    <state x="672" y="303" key="#Composer" timestamp="1606951540863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="303" key="#Composer/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606951540863" />
+    <state x="552" y="178" key="#Deployment" timestamp="1606914884421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606914884421" />
+    <state x="690" y="193" key="#Docker" timestamp="1606927753174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="193" key="#Docker/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606927753174" />
+    <state x="540" y="175" key="#Mess_Detector" timestamp="1606914101736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#Mess_Detector/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606914101736" />
+    <state x="728" y="230" key="#New_Docker_Connection" timestamp="1606915009926">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="230" key="#New_Docker_Connection/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606915009926" />
+    <state x="540" y="175" key="#PHP_CS_Fixer" timestamp="1606914310338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#PHP_CS_Fixer/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606914310338" />
+    <state x="540" y="175" key="#PHP_CodeSniffer" timestamp="1606914073430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#PHP_CodeSniffer/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606914073430" />
+    <state x="832" y="430" key="#PHP_CodeSniffer_Ignored_Files" timestamp="1606911280100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="430" key="#PHP_CodeSniffer_Ignored_Files/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911280100" />
+    <state x="799" y="432" key="#Path_mapping" timestamp="1606947326186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="799" y="432" key="#Path_mapping/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606947326186" />
+    <state x="815" y="419" key="#Volume_binding" timestamp="1606953568871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="419" key="#Volume_binding/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606953568871" />
+    <state x="552" y="178" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606927810878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606927810878" />
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606915755722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606915755722" />
+    <state x="739" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606911951418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="225" key="#com.intellij.ide.macro.MacrosDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911951418" />
+    <state x="728" y="350" width="463" height="618" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606911955772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="350" width="463" height="618" key="#com.intellij.tools.ToolEditorDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911955772" />
+    <state x="678" y="397" key="ComposerCompositePathDialog" timestamp="1606911886455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="397" key="ComposerCompositePathDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911886455" />
+    <state x="710" y="415" width="575" height="309" key="ComposerInitDialogKey" timestamp="1606951826705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="415" width="575" height="309" key="ComposerInitDialogKey/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606951826705" />
+    <state x="824" y="425" key="ComposerValidateDialog" timestamp="1606950400790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="425" key="ComposerValidateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606950400790" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606928148673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606928148673" />
+    <state x="803" y="387" key="DockerComposeFileDialog" timestamp="1606909775403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="387" key="DockerComposeFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606909775402" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1606951776176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606951776176" />
+    <state x="252" y="130" key="FileDocumentManager.FileCacheConflict" timestamp="1606948347694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="252" y="130" key="FileDocumentManager.FileCacheConflict/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606948347694" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1606953580593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606953580593" />
+    <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1606911633118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="82" height="441" key="SqlResolveConfigurable/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911633118" />
+    <state x="729" y="380" key="SymfonyComponentCompositeDataDialog" timestamp="1606911915472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="729" y="380" key="SymfonyComponentCompositeDataDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911915472" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606927638690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606927638690" />
+    <state x="771" y="386" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1606953553511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="386" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606953553511" />
+    <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1606911566088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606911566088" />
+    <state x="828" y="427" key="save.project.as.template.dialog" timestamp="1606914660402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="427" key="save.project.as.template.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606914660402" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606955676720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606955676720" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

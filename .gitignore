@@ -74,8 +74,8 @@ $RECYCLE.BIN/
 /nbproject/
 
 ###### Intellij IDE ######
-.idea/
-.idea_modules/
+#.idea/
+#.idea_modules/
 
 ###### vim ######
 *.swp
