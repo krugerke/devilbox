@@ -13,12 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d78732dd-9ed5-49a6-adad-66455e697386" name="Default Changelist" comment=".idea files Initial commit.">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d78732dd-9ed5-49a6-adad-66455e697386" name="Default Changelist" comment=".idea files Initial commit." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
